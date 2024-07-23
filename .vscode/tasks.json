@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "eject",
+			"path": "dashboard",
+			"problemMatcher": [],
+			"label": "npm: eject - dashboard",
+			"detail": "react-scripts eject"
+		}
+	]
+}
