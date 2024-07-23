@@ -1,0 +1,71 @@
+.login{
+    width: 70%;
+    height: 65px;
+    background-color: #0d2465;
+    color: #fff;
+    margin-left: 42%;
+border-radius: 15px;
+font-weight: bolder;
+margin-top: 40px;
+}
+
+.login-page{
+    display: flex;
+}
+
+.logo{
+   margin-left: 15%; 
+   margin-top: 15%;
+}
+
+.logo img{
+    width: 40%;
+    height: auto;
+}
+
+.login-form{
+    margin-left: 7.5%;
+    display: grid;
+    background-color: #fff;
+    color: black;
+}
+
+input{
+    background-color: #D9D9D9;
+    padding-left: 10px;
+    border-radius: 10px;
+    height: 60px;
+    width: 150%;
+}
+
+h3{
+    color: #0d2465;
+    font-size: xx-large;
+}
+h2{
+    font-size: 40px;
+    color: #0d2465;
+    margin-left: 45%;
+}
+p{
+    white-space: nowrap;
+    font-weight: bold;
+    margin-left: 42%;
+    margin-top: -3px;
+    color: #0d2465;
+}
+.welcome{
+    width: 50%;
+    background-color:#D9D9D9;
+    height: 46.5rem;
+}
+label{
+    font-weight: bold;
+    margin-top: -3%;
+}
+
+.prompt-question2{
+    
+    margin-top: -30px;
+margin-left: 200px;
+}
