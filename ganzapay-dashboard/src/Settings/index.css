@@ -1,0 +1,123 @@
+.container{
+    display: flex;
+    padding-bottom: 10px;
+    gap: 5%;
+    padding-left: 30%;
+}
+
+.heading{
+  font-size: 25px;
+}
+
+h1{
+    padding-left: 50%;
+}
+
+ .others{
+    background-color: #BFBEE3;
+    width: 200px;
+    height: 420px;
+    font-size: 24px;
+} 
+
+
+.sections {
+  font-size: 19px;
+  padding-top: 100px;
+  background-color: #BFBEE3;
+  padding-bottom: 160px;
+  padding-left: 90px;
+  padding-right: 90px;
+  border-radius: 20px;
+  margin-top: -1%;
+  white-space: nowrap;
+}
+
+.home{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.transaction{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.statistics{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.care{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.setting{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.log{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.customer{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+.language{
+  display: flex;
+  align-items: center;
+  gap: 140px;
+}
+
+.icon-language{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+   
+}
+
+.notify{
+  display: flex;
+  align-items: center;
+  gap: 100px;
+}
+
+.icon-notify{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.mode{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+.light-mode {
+  background-color: #fff;
+  color: #333;
+}
