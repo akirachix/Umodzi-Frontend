@@ -1,0 +1,104 @@
+.table{
+    display: flex;
+    gap:10%;
+    text-align: justify;
+    margin-left: 10px; 
+    /* margin-top: 10%; */
+
+ }
+h1{
+    text-align: center; 
+    
+ }
+.details{
+    background-color: #BFBEE3;
+    padding-top: 5%;
+    /* padding-bottom: 5%; */
+    padding-left: 6%;
+    padding-right: 24%;
+    border-radius: 20px;
+    height: 485px;
+    margin-top: 8%;
+    /* margin-left: 3%; */
+
+}
+
+.title{
+    
+        font-size: 19px;
+        padding-top: 170px;
+        background-color: #BFBEE3;
+        /* padding-bottom: 200px; */
+        padding-left: 80px;
+        padding-right: 80px;
+        border-radius: 20px;
+        /* margin-top: -1%; */
+        white-space: nowrap;
+        height: 830px;
+        margin-left: -20px;
+    
+
+
+    /* background-color: 
+    #BFBEE3;
+    line-height: 50px;
+    padding-left: 4%;
+    padding-right: 2%;
+    padding-top: 5%;
+    padding-bottom: 20%;
+    border-radius: 20px; */
+}
+.text{
+    display: flex;
+    gap: 25%;
+    font-size: 24px;
+}
+.heading{
+    display: flex;
+    gap: 38%;
+    font-size: 24px ;
+    font-weight:bold ;
+}
+
+.transaction{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;
+    background-color: #302EA8;
+    border-radius: 30px;
+    padding-left: 9px;
+    padding: -9px 10px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px; 
+}
+
+.statistics{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px;  
+}
+
+.care{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px; 
+}
+.setting{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px; 
+}
+.log{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 25px; 
+}
