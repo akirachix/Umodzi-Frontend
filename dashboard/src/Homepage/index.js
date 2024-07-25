@@ -1,11 +1,5 @@
 import "./index.css";
 import logo from "./Image/logo.png";
-import { IoHomeOutline } from "react-icons/io5";
-import { CiDollar } from "react-icons/ci";
-import { FcStatistics } from "react-icons/fc";
-import { RiCustomerService2Line } from "react-icons/ri";
-import { IoSettingsOutline } from "react-icons/io5";
-import { IoIosLogOut } from "react-icons/io";
 import { MdBalance } from "react-icons/md";
 import { FaUser } from "react-icons/fa6";
 import { FaCartShopping } from "react-icons/fa6";
@@ -23,38 +17,12 @@ function Homepage() {
         <div id="searchlogo">
         <form action="/search" method="get">
     <input type="search" id="search-input" placeholder="Search..."/>
-    <button type="submit">Search</button>
+    {/* <button type="submit">Search</button> */}
 </form>
         </div>
       </div>
       <div className="whole">
-        <div className="sections">
-          <div className="home">
-            <IoHomeOutline />
-            <p>Home</p>
-          </div>
-          <div className="transaction">
-            <CiDollar />
-            <p>Transaction</p>
-          </div>
-          <div className="statistics">
-            <FcStatistics />
-            <p>Statistics</p>
-          </div>
-          <div className="care">
-            <RiCustomerService2Line />
-            <p>Customer Care</p>
-          </div>
-          <div className="setting">
-            <IoSettingsOutline />
-            <p>Settings</p>
-          </div>
-          <div className="log">
-            <IoIosLogOut />
-            <p>Log Out</p>
-          </div>
-        </div>
-
+       
         <div className="data">
           <div className="statistis">
             <div className="chart-container">
