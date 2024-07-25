@@ -1,0 +1,121 @@
+
+.sections {
+    font-size: 19px;
+    padding-top: 130px;
+    background-color: #BFBEE3;
+    padding-bottom: 1px;
+    padding-left: 90px;
+    padding-right: 90px;
+    border-radius: 20px;
+    margin-top: -1%;
+    white-space: nowrap;
+    height:700PX
+
+    
+  }
+
+  .Statistics{
+    display: flex;
+    gap: 10px;
+    align-items: center
+  }
+
+  .transaction{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+  }
+  .home{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+  }
+  .care{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+
+
+  }
+  .setting{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+  }
+  .log{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+  }
+
+  .Statistics{
+  
+    color: aliceblue;
+   
+  }
+
+
+
+
+
+
+
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .sections {
+      font-size: 16px; 
+      padding-top: 100px; 
+      padding-left: 20px; 
+      padding-right: 20px; 
+      margin-top: 0; 
+      white-space: normal; 
+
+  }
+
+  .statistics, .transaction, .home, .care, .setting, .log {
+      flex-direction: column; 
+      gap: 5px; 
+      align-items: flex-start; 
+  }
+
+
+
+
+  .Statistics {
+  
+    color: aliceblue;
+    background-color: blue;
+  }
+
+}
+
+/* Additional media query for very small screens */
+@media (max-width: 480px) {
+  .sections {
+      font-size: 14px; 
+      padding-top: 70px; 
+      padding-left: 10px; 
+      padding-right: 10px; 
+  }
+
+  .statistics, .transaction, .home, .care, .setting, .log {
+      gap: 2px; 
+  }
+}
+
+
+
+
+
+
+
+
+  
