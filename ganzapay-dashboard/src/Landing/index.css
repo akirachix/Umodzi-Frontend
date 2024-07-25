@@ -24,6 +24,7 @@ h4{
 }
 
 .log{
+    cursor: pointer;
     width: 17%;
     height: 75px;
     background-color: #0d2465;
@@ -39,6 +40,7 @@ margin-top: 40px;
 }
 
 .signup{
+    cursor: pointer;
     font-weight: bolder;
     width: 17%;
     height: 75px;
