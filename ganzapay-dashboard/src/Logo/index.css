@@ -1,0 +1,9 @@
+.logo{
+    width: 300px;
+    display: flex;
+    color: blue;
+}
+.statistics{
+     margin-left: 700px;
+    color: black;
+}

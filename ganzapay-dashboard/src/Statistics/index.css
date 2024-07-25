@@ -1,0 +1,47 @@
+
+
+
+.linechart {
+    
+    width: 100%; 
+    margin-left: 10%;
+    margin-bottom: 0%;
+    height: 50vh; 
+
+}
+
+.whole {
+    display: flex;
+    margin-right: auto; 
+    width: 90%; 
+    height: 50vh;
+}
+
+
+
+
+/* Media Queries for Responsiveness */
+
+/* For tablets and smaller devices */
+@media (max-width: 768px) {
+    .linechart {
+        height: 40vh; /* Reduce height for smaller screens */
+    }
+
+    .whole {
+        flex-direction: column; /* Stack items vertically */
+        width: 100%; /* Full width */
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .linechart {
+        height: 30vh; /* Further reduce height for mobile */
+    }
+
+    .whole {
+        width: 95%; /* Slightly reduce width for better padding */
+    }
+}
+
