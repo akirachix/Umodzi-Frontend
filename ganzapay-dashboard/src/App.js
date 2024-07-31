@@ -1,3 +1,4 @@
+
 import Transaction from './Transaction';
 import './App.css';
 
@@ -6,6 +7,7 @@ function App() {
     <div>
   <Transaction/>
     </div>
+
   );
 }
 
