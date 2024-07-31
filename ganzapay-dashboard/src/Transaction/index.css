@@ -1,104 +1,51 @@
-.table{
-    display: flex;
-    gap:10%;
-    text-align: justify;
-    margin-left: 10px; 
-    /* margin-top: 10%; */
-
- }
-h1{
-    text-align: center; 
-    
- }
-.details{
-    background-color: #BFBEE3;
-    padding-top: 5%;
-    /* padding-bottom: 5%; */
-    padding-left: 6%;
-    padding-right: 24%;
-    border-radius: 20px;
-    height: 485px;
-    margin-top: 8%;
-    /* margin-left: 3%; */
-
+.transactions-table {
+  border-collapse: collapse;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin: 10% auto;
+  font-size: 24px;
+  border-radius: 10px;
+  background-color: #bfbee3;
+  padding: 10px 20px;
 }
 
-.title{
-    
-        font-size: 19px;
-        padding-top: 170px;
-        background-color: #BFBEE3;
-        /* padding-bottom: 200px; */
-        padding-left: 80px;
-        padding-right: 80px;
-        border-radius: 20px;
-        /* margin-top: -1%; */
-        white-space: nowrap;
-        height: 830px;
-        margin-left: -20px;
-    
-
-
-    /* background-color: 
-    #BFBEE3;
-    line-height: 50px;
-    padding-left: 4%;
-    padding-right: 2%;
-    padding-top: 5%;
-    padding-bottom: 20%;
-    border-radius: 20px; */
-}
-.text{
-    display: flex;
-    gap: 25%;
-    font-size: 24px;
-}
-.heading{
-    display: flex;
-    gap: 38%;
-    font-size: 24px ;
-    font-weight:bold ;
+.transactions-table thead th {
+  padding: 15px 70px;
+  text-align: left;
+  border-bottom: 2px solid #ddd;
+  font-weight: bold;
 }
 
-.transaction{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 25px;
-    background-color: #302EA8;
-    border-radius: 30px;
-    padding-left: 9px;
-    padding: -9px 10px;
+.transactions-table tbody td {
+  padding: 20px 75px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
 }
-.home{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 25px; 
+.pagination {
+  margin-top: -9%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 21px;
 }
 
-.statistics{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 25px;  
+.pagination-item {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+  cursor: pointer;
 }
 
-.care{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 25px; 
+.pagination-item.active {
+  background-color: #bfbee3;
+  color: white;
 }
-.setting{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 25px; 
-}
-.log{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    font-size: 25px; 
+
+.transactions {
+  text-align: center;
+  margin: 20px 0;
 }
