@@ -39,7 +39,7 @@ const Transaction = () => {
             onClick={() => handlePageChange(pageNumber)}
           >
             
-          
+            
             {pageNumber}
           </div>
         ))}
